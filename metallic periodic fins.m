@@ -1,11 +1,15 @@
+%%Geometry of periodic fins
 x = 0.14;
 y = 0.04;
 dx = 0.02;
 dy = 0.02;
+
+%% Coefficient and Temperature
 h = 30;
 k = 3;
 Ta = 20;
 Tb = 50;
+
 M = floor(y/dy + 1);
 N = floor(x/dx + 1);
 T = Ta*ones(M,N);
